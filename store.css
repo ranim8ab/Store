@@ -1,0 +1,87 @@
+/* GLOBAL STYLES */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #faf6ff;
+    color: #333;
+}
+
+/* HEADER */
+.pastel-header {
+    background: #c9b6e4;
+}
+
+/* NAVIGATION MENU */
+.nav-links {
+    display: none;
+}
+
+#menu-toggle:checked ~ .nav-links {
+    display: block;
+    background: #c9b6e4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+    .nav-links {
+        display: block !important;
+    }
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* PRODUCT SECTION */
+.pastel-title {
+    color: #8b6fbc;
+}
+
+.pastel-card {
+    border: none;
+    background: #ffffff;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.pastel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* BUTTON STYLE */
+.pastel-btn {
+    background: #8b6fbc;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.pastel-btn:hover {
+    background: #7357a1;
+}
+
+/*CONTACT SECTION */
+.pastel-contact {
+    background: #f3ecff;
+}
+
+.pastel-contact .form-control {
+    border-radius: 10px;
+    border: 1px solid #ccb7e8;
+}
+
+.pastel-contact .form-control:focus {
+    border-color: #8b6fbc;
+    box-shadow: 0 0 5px rgba(139, 111, 188, 0.4);
+}
+
+
+/* FOOTER */
+.pastel-footer {
+    background: #c9b6e4;
+    color: #333;
+    font-size: 15px;
+}
